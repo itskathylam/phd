@@ -30,7 +30,7 @@ for interval in x:
 file = open("results.xml")     
 blast_records = NCBIXML.parse(file)
 
-##accumulate distance between contig pairs in dictionary
+##accumulate distance between contig pairs in dictionary (where 1 = identical)
 distance = {}
 
 ##for each queried sequence
